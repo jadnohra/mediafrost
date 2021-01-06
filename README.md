@@ -5,12 +5,15 @@ An image and video backup tool
 # Usage Examples
 
 Dry run, list duplicates
+
 `python3 -m mediafrost --no-videos --log-debug --out-dir ./backup --zip  --naive-dups --dry-run --list-duplicates /media/user/DISK/some_photos/`
 
 Backup images only
+
 `python3 -m mediafrost --no-videos --log-debug --out-dir ./backup --zip  --naive-dups /media/user/DISK/some_photos/`
 
 Backup video only, encode (large) .MTS files
+
 `python3 -m mediafrost --no-images --log-debug --out-dir ./backup --mts-encode-sh mediafrost/encode_video.sh --zip  --naive-dups /media/user/DISK/some_photos/`
 
 # Help
